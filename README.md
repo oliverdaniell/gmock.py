@@ -16,10 +16,14 @@ git clone --recursive git@github.com:krzysztof-jusiak/gmock.git
 Usage: gmock.py [options] files...
 
 Options:
-  -h, --help                show this help message and exit
-  -c FILE, --config=FILE    config FILE (default='gmock.conf')
-  -d DIR, --dir=DIR         dir for generated mocks (default='.')
-  -l LIMIT, --limit=LIMIT   limit to interfaces within declaration (default='')
+  -h, --help            show this help message and exit
+  -c FILE, --config=FILE
+                        config FILE (default='gmock.conf')
+  -d DIR, --dir=DIR     dir for generated mocks (default='.')
+  -e LIMIT, --expr=LIMIT
+                        limit to interfaces within expression (default='')
+  -l LIBCLANG, --libclang=LIBCLANG
+                        path to libclang.so (default=None)
 ```
 
 ### Example
